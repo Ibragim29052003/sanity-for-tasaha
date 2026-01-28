@@ -1,3 +1,9 @@
-import product from "./product";
+import sliderProduct from "./sliderProduct";
+import catalogProduct from "./catalogProduct";
+import detailProduct from "./detailProduct";
 
-export const schemaTypes = [product]
+export const schemaTypes = [
+  sliderProduct,
+  catalogProduct,
+  detailProduct
+]
